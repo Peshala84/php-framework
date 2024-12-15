@@ -3,7 +3,7 @@
    class Controller{
     //to load the model
     public function model($model){
-    require_once './app/models/'.$model.'.php';
+    require_once '../app/models/'.$model.'.php';
 
 
         //instantiate the model and pass it to the controller member variable
